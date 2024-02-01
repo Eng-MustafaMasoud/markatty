@@ -28,7 +28,7 @@ const StoreForm = () => {
         <input
           type="text"
           placeholder="Type your store name"
-          className="px-2 bg-gray-100 py-2 border border-gray-200 rounded-lg"
+          className="px-2 bg-gray-100 py-1.5 border border-gray-200 rounded-lg"
         />
       </div>
       <div className=" flex flex-col gap-2">
@@ -39,7 +39,7 @@ const StoreForm = () => {
             placeholder="my store"
             className="bg-gray-100 px-2 w-full"
           />
-          <span className="bg-white px-3 py-2 border rounded-r-lg  border-gray-200">
+          <span className="bg-white px-3 py-1.5 border rounded-r-lg  border-gray-200">
             .marketty.com
           </span>
         </div>
@@ -47,7 +47,7 @@ const StoreForm = () => {
       <div className=" flex flex-col gap-2  ">
         <label htmlFor="">Store name</label>
         <div
-          className="flex relative bg-gray-100 border border-gray-200 rounded-lg pl-2 py-2 justify-between items-center"
+          className="flex relative bg-gray-100 border border-gray-200 rounded-lg pl-2 py-1.5 justify-between items-center"
           onClick={() => setToggle(!toggle)}
         >
           <p className="w-full ">

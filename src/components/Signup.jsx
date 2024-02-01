@@ -39,7 +39,7 @@ const Signup = () => {
 
   return (
     <section className="flex overflow-hidden  h-screen gap-2 max-w-[1440px] mx-auto">
-      <div className="flex-1 flex flex-col justify-between px-4 gap-1">
+      <div className="flex-1 flex flex-col justify-between px-4 ">
         <Header />
         <div className="">
           <img src={step} alt="step-1" />
