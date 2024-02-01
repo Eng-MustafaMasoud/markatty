@@ -86,7 +86,7 @@ const StoreForm = () => {
           Ex. (Baby, Boys' fashion, Girls' fashion, Men's fashion, etc..)
         </p>
       </div>
-      <div className=" w-full items-center flex flex-col md:gap-6 gap-2 hub text-center">
+      <div className=" w-full items-center flex flex-col md:gap-6 gap-3 hub text-center">
         <button
           onClick={handleClick}
           className=" hover:opacity-95 bg-[#7244c8] mt-2 rounded-lg text-white flex items-center justify-center w-full  py-2"
